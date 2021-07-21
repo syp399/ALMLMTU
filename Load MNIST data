@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 17 03:30:47 2021
-
-@author: theho
-"""
 from keras.datasets import mnist
 (train_X, train_y), (test_X, test_y) = mnist.load_data()
 print('X_train: ' + str(train_X.shape))
